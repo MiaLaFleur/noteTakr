@@ -166,14 +166,13 @@ const renderNoteList = async (notes) => {
     const liEl = document.createElement('li'); // creates li for each note
       li.innerHTML = 'notevalue'  // adds some text into said li
       noteList.appendChild(liEl) // appends li to the ul of all the notes
-    };  
+    }; 
 
-    createLi();
-    
   if (window.location.pathname === '/notes') {
     noteListItems.forEach((note) => noteList[0].append(note));
   }
-
+  
+createLi();
 };
 
 // Gets notes from the db and renders them to the sidebar
