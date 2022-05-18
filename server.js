@@ -8,7 +8,6 @@ const app = express();
 
 // parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));
-
 // parse incoming JSON data
 app.use(express.json());
 
