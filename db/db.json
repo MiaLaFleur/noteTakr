@@ -1,10 +1,12 @@
-[
+{
+  "notesArray": [
     {
-        "title":"Test Title",
-        "text":"Test text"
+      "title": "Test Title",
+      "text": "Test text"
     },
     {
-        "title": "this is a cool note",
-        "text": "it is awesome!"
+      "title": "this is a new note",
+      "text": "i am rad"
     }
-]
+  ]
+}
