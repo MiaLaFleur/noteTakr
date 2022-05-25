@@ -7,6 +7,7 @@ router.get('/notes', (req, res) => {
 });
 
 router.post('/notes', (req, res) => {
+    req.body.id = notesArray.length.toString();
     const newNote = createNewNote(req.body, notesArray);
     res.json(newNote)
 });
